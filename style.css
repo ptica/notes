@@ -1,0 +1,27 @@
+/*  http://www.ilikepixels.co.uk/drop/bubbler/ */
+.bubble {
+	position: relative;
+	margin-top:15px;
+	height: 120px;
+	padding: 7px;
+	background: #F5F5F5;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	border: #E3E3E3 solid 1px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.new-bubble {
+	margin-top: 15px;
+	border-radius: 4px!important;
+}
+
+.bubble h5 {
+	margin-top:0;
+}
+
+.bubble .time {
+	color:#bfbfbf;
+}
