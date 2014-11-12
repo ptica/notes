@@ -2,7 +2,7 @@
 .bubble {
 	position: relative;
 	margin-top:15px;
-	height: 120px;
+	min-height: 80px;
 	padding: 7px;
 	background: #F5F5F5;
 	-webkit-border-radius: 7px;
@@ -24,4 +24,38 @@
 
 .bubble .time {
 	color:#bfbfbf;
+}
+
+.bubble .action {
+	vertical-align: 10%;
+}
+.bubble .booked_nok .fa {
+	color: red
+}
+.bubble .booked_ok .fa {
+	color: green;
+}
+.bubble .checked_ok .st-10 {
+	content: "";
+	margin-right: 0px;
+	margin-top: 4px;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 9px;
+	height: 9px;
+	background-color: green;
+	vertical-align: top;
+}
+.bubble .checked_nok .st-11 {
+	content: "";
+	margin-right: 0px;
+	margin-top: 4px;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 9px;
+	height: 9px;
+	background-color: red;
+	vertical-align: top;
 }
