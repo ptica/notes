@@ -2,7 +2,7 @@
 .bubble {
 	position: relative;
 	margin-top:15px;
-	min-height: 80px;
+	min-height: 65px;
 	padding: 7px;
 	background: #F5F5F5;
 	-webkit-border-radius: 7px;
@@ -29,6 +29,13 @@
 .bubble .action {
 	vertical-align: 10%;
 }
+.bubble .cancel_request .fa {
+	color: red
+}
+.bubble .cancelled .fa {
+	color: grey
+}
+
 .bubble .booked_nok .fa {
 	color: red
 }
