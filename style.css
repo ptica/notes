@@ -2,7 +2,7 @@
 .bubble {
 	position: relative;
 	margin-top:15px;
-	min-height: 65px;
+	min-height: 80px;
 	padding: 7px;
 	background: #F5F5F5;
 	-webkit-border-radius: 7px;
@@ -65,4 +65,19 @@
 	height: 9px;
 	background-color: red;
 	vertical-align: top;
+}
+
+.postit {
+	background: #FEFF89 url("gradient.php.jpg") repeat-x;
+	background-position: 0 70px;
+	border: 1px solid #E6E7A1;
+	padding: 7px 7px 13px 7px;
+	margin: 11px 0 0 0;
+}
+.postit h5 {
+	margin-top:0;
+}
+
+.postit .time {
+	color:#695B5B;
 }
